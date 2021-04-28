@@ -22,7 +22,11 @@ body{
 }
 .container.header ul li{
     list-style: none;
+<<<<<<< HEAD
     margin: 5px 10px 10px;
+=======
+    margin: 5px 10px;
+>>>>>>> eed99a91b0a98f476f968e05a3e45b013950ecc9
 }
 
 .container.header ul li a{
@@ -42,11 +46,15 @@ body{
     margin:0 auto;
     display:flex;
     justify-content: space-between;
+<<<<<<< HEAD
     align-items: center;
+=======
+>>>>>>> eed99a91b0a98f476f968e05a3e45b013950ecc9
 }
 .container.footer div{
     margin: 5px 10px;
 }
+<<<<<<< HEAD
 .container.footer a{
     text-decoration: none;
     color:#fff;
@@ -55,6 +63,8 @@ body{
     font-size: 1.5rem;
     margin: 0px 3px;
 }
+=======
+>>>>>>> eed99a91b0a98f476f968e05a3e45b013950ecc9
 
 .container.portada{
     width: 100%;
@@ -89,7 +99,11 @@ body{
     text-decoration: none;
     color: #000;
     background-color: #fcad63;
+<<<<<<< HEAD
     padding: 5px 15px;
+=======
+    padding: 5px 10px;
+>>>>>>> eed99a91b0a98f476f968e05a3e45b013950ecc9
     border-radius: 5px;
     font-weight: 600;
     font-size:0.8rem;
@@ -143,7 +157,11 @@ body{
     text-decoration: none;
     background: #fcad63;
     color: #000;
+<<<<<<< HEAD
     padding: 5px 18px;
+=======
+    padding: 5px 10px;
+>>>>>>> eed99a91b0a98f476f968e05a3e45b013950ecc9
     border-radius: 5px;
     font-weight: 600;
     font-size:0.8rem;
@@ -152,6 +170,7 @@ body{
 .container.main a:hover{
     color:#fff;
 }
+<<<<<<< HEAD
 
 .fijowhat img{
     position: fixed;
@@ -188,6 +207,8 @@ body{
     margin: 20px 0px;
     border-radius: 1rem;
 }
+=======
+>>>>>>> eed99a91b0a98f476f968e05a3e45b013950ecc9
 /*-----First mobile----*/
 
 @media screen and (min-width:320px){
