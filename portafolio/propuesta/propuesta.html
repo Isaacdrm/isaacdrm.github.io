@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Puedo?🥺</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .container .title{
+            width:100%;
+            margin-top:200px;
+        }
+        .container .title h1{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        .div1{
+            margin-top: 50px;
+           
+            justify-content: center;
+            width: 110px;
+        }
+        .div1 a{
+            font-size: 3rem;
+            background-color: white;
+            border: solid #000 2px;
+            text-decoration: none;
+            font-weight: 800;
+            padding: 10px 30px;
+            color: #ff7575;
+            border-radius: 10px;
+        }
+        .cont2{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+        }
+
+        .div1 a:hover{
+            background-color: #dfdfdf;
+            -webkit-box-shadow: -2px 12px 18px 4px rgba(0,0,0,0.24);
+            -moz-box-shadow: -2px 12px 18px 4px rgba(0,0,0,0.24);
+            box-shadow: -2px 12px 18px 4px rgba(0,0,0,0.24);
+        }
+        #no{
+            position: absolute;
+        }
+
+        @media screen and (max-width: 420px){
+            .div1 a{
+            font-size: 2rem;
+            border: solid #000 1px;
+            font-weight: 800;
+            padding: 7px 25px;
+        }
+
+        .container .title h1{
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1><img width="40px" src="corazon.png" alt="myhearsisyour">¿Quieres ser mi novia?<img width="40px" src="corazon.png" alt="myhearsisyour"></h1></div>
+       
+       <div class="cont2">
+            <div class="div1">
+                <a href="https://wa.link/vdfryg" class="boton" id="si">si</a> 
+            </div>
+            <div class="div1">
+                <a href="#" id="no" class="boton">no</a>
+            </div>
+       </div>
+        
+        
+    
+    </div>
+
+    <script>
+        let si=document.getElementById("si"); 
+        si.addEventListener("click", function(e){
+            alert("Sabía que aceptarías bb 😁😍")
+        })
+        let no=document.getElementById("no");
+        no.addEventListener("mousemove", function(e){
+            let x = Math.round(Math.random() * 83);
+            let y = Math.round(Math.random() * 83);
+            no.style.left = x+"%";
+            no.style.top = y+"%";
+        }) 
+    </script>
+    
+</body>
+</html>
